@@ -1,6 +1,6 @@
 cask "ensoai" do
-  version "0.1.18"
-  sha256 arm: "6c0e5e9cefb3dbf546e5965e29bc84e9b09ef7bf30a62e46adfe6ad61ae83559",
+  version "0.2.5"
+  sha256 arm: "765b07f269e3fae983bb729baaa8c6b73f0ba112743ace0e053e7736f1c7b003",
          intel: "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
 
   on_arm do
@@ -20,12 +20,6 @@ cask "ensoai" do
   end
 
   app "EnsoAI.app"
-
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/EnsoAI.app"],
-                   sudo: true
-  end
 
   zap trash: [
     "~/Library/Application Support/EnsoAI",
