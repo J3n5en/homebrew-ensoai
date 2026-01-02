@@ -1,6 +1,6 @@
 cask "ensoai" do
-  version "0.2.10"
-  sha256 arm: "d350599d2e1b3ce0446f8339170a04d9b133ea7760552c8eb042a69a225cce71",
+  version "0.2.11"
+  sha256 arm: "1cf0f7eb587fde54bd1cda2df753a0aa895439bd80e20fb2fd73c2346c50ffd9",
          intel: "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
 
   on_arm do
