@@ -1,7 +1,7 @@
 cask "ensoai" do
-  version "0.2.44"
-  sha256 arm: "7765d7557cbd0db1ad0fcaa6eb4332ea1237b0fce2a6c7aff90e4efedec147a0",
-         intel: "da2ff2af7f21a39ac398b3ba5e150765ba6041c8cef39b46208ff6b65ab6dc16"
+  version "0.2.45"
+  sha256 arm: "84dd0f5938d11d2db5f415226bfa00fd2fd58e64fc62f72776d2546eb6643b6a",
+         intel: "fe8082996768e1ba3102a270d5b77b3be09d789bcd13234a71c88cae7ea6b7a4"
 
   on_arm do
     url "https://github.com/J3n5en/EnsoAI/releases/download/v#{version}/EnsoAI-#{version}-arm64.dmg"
